@@ -15,5 +15,9 @@ void functioncheckingOfpalindrom(int pol)
     if (pol % 10 == (pol / 10000) % 10 && pol / 10 % 10 == (pol / 1000) % 10)
         Console.WriteLine($"{pol} Да. Это палиндром");
     else Console.WriteLine($"{pol} Нет. Это не палиндром");
+//Console.WriteLine($"{pol % 10}");
+//Console.WriteLine($"{pol % 100}");
+//Console.WriteLine($"{pol % 1000}");
 }
 functioncheckingOfpalindrom(13437);
+
