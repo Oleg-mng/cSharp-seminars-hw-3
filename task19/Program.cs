@@ -17,7 +17,6 @@ void functioncheckingOfpalindrom(int pol)
     else Console.WriteLine($"{pol} Нет. Это не палиндром");
 //Console.WriteLine($"{pol % 10}");
 //Console.WriteLine($"{pol % 100}");
-//Console.WriteLine($"{pol % 1000}");
 }
 functioncheckingOfpalindrom(13437);
 
